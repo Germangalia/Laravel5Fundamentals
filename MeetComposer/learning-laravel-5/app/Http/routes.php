@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('contact', 'WellcomeController@contact');
+
+Route::get('about', 'PagesController@about');
