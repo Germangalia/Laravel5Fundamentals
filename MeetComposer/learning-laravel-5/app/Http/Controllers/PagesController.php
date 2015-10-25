@@ -10,7 +10,7 @@ class PagesController extends Controller
 {
 
     public function about(){
-        return 'About Page';
+        return view('pages.about');
     }
     /**
      * Display a listing of the resource.
