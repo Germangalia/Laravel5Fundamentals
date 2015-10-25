@@ -2,12 +2,13 @@
 
 @section('content')
 
-    @if ($first =='John')
-        <h1>Hi John</h1>
-    @else
-        <h1>Else</h1>
-    @endif
+    <h1>About</h1>
 
+    <h3>People I like:</h3>
+    <ul>
+        @foreach($people as $person)
+            <li>{{$person}}</li>
+    </ul>
     <p>Lorem ipsum...</p>
 
 @stop
