@@ -1,7 +1,13 @@
 @extends('app')
 
 @section('content')
-    <h1>About me: {{$first}}</h1>
+
+    @if ($first =='John')
+        <h1>Hi John</h1>
+    @else
+        <h1>Else</h1>
+    @endif
+
     <p>Lorem ipsum...</p>
 
 @stop
