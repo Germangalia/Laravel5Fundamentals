@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Contact</title>
+@extends('app')
 
-</head>
-<body>
-<h1>Contact me!</h1>
-</body>
-</html>
+@section('content')
+    <h1>Contact me!</h1>
+
+@stop

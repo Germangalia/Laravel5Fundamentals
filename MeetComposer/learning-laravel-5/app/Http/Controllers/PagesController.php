@@ -13,8 +13,11 @@ class PagesController extends Controller
 
 
         $first = 'German';
-        $last = 'Galià B.';
-        return view('pages.about', compact('first', 'last'));
+        return view('pages.about', compact('first'));
+    }
+
+    public function contact(){
+        return view('pages.contact');
     }
     /**
      * Display a listing of the resource.
