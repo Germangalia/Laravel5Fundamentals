@@ -10,7 +10,9 @@ class PagesController extends Controller
 {
 
     public function about(){
-        return view('pages.about');
+
+        $name = 'German <span style="color:red;">Galià</span>';
+        return view('pages.about')->with('name', $name);
     }
     /**
      * Display a listing of the resource.
