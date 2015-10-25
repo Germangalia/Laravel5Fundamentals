@@ -11,10 +11,10 @@ class PagesController extends Controller
 
     public function about(){
 
-        $data = [];
-        $data['first']= 'German';
-        $data['last'] = 'Galià Beltran';
-        return view('pages.about', $data);
+
+        $first = 'German';
+        $last = 'Galià B.';
+        return view('pages.about', compact('first', 'last'));
     }
     /**
      * Display a listing of the resource.
